@@ -1,11 +1,12 @@
-body {
-    background-color: rgb(157, 127, 181);
-  }
-  h1 {
+  body {
+    background-color: #b19cd9; 
+}
+h1 {
     color: white;
     text-align: center;
-  }
-  p {
-    font-family: "Lucida Grande";
-    font-size: 18 px;
-  }
+}
+p {
+    font-family: "Lucida Sans", sans-serif; 
+    font-size: 18px;
+}
+
