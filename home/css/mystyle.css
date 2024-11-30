@@ -1,5 +1,5 @@
 body {
-  background-color: #8A9A5B;
+  background-color: #f8f7f2;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
   margin: 0;
@@ -25,7 +25,7 @@ h1, h2 {
   margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
-  border: 1px #139873 solid;
+  background-color: #4d5731;  
 }
 
 h3 {
@@ -62,33 +62,35 @@ table {
 
 th {
   text-align: left;
-  border: 2px solid #4d5731;
+  border: 2px;
   padding: 10px;
   border-radius: 10px;
 }
 
 td {
-  border: 2px solid #4d5731;
+  border: 2px;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
 }
 
+th img, td img {
+  border-radius: 7px;
+}
+
 th img {
   width: 200px;
   height: 140px;
-  border-radius: 7px;
 }
 
 td img {
   width: 140px;
   height: 200px;
-  border-radius: 7px;
 }
 
 a.links {
   text-decoration: none;
-  color: #139873;
+  color: white;
   font-size: 18px;
 }
 
@@ -108,4 +110,9 @@ a.links:hover {
   height: 250px;
   border-radius: 7px;
   margin-bottom: 20px;
+}
+
+#profile {
+  width: 200px;
+  height: 200px;
 }
