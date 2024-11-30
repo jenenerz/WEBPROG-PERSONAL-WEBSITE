@@ -1,7 +1,7 @@
 body {
   background-color: #f8f7f2;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
+  color: #4d5731;
   margin: 0;
   padding: 0;
 }
@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2 {
-  color: white;
+  color: #4d5731;
   font-size: 32px;
   text-align: center;
 }
@@ -31,13 +31,13 @@ h1, h2 {
 h3 {
   font-size: 24px;
   font-weight: bolder;
-  color: white;
+  color: #f8f7f2;
   text-align: left;
 }
 
 h4 {
   font-size: 20px;
-  color: white;
+  color: #f8f7f2;
 }
 
 ul, table {
@@ -60,15 +60,8 @@ table {
   margin-top: 20px;
 }
 
-th {
-  text-align: left;
-  border: 2px;
-  padding: 10px;
-  border-radius: 10px;
-}
-
-td {
-  border: 2px;
+th, td {
+  border: 2px solid #fff;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
@@ -76,16 +69,16 @@ td {
 
 th img, td img {
   border-radius: 7px;
+  object-fit: cover; 
 }
 
 th img {
-  width: 200px;
-  height: 140px;
-}
+  width: 200px;  
+  height: auto;   
 
 td img {
-  width: 140px;
-  height: 200px;
+  width: 140px;   
+  height: auto;  
 }
 
 a.links {
@@ -110,9 +103,11 @@ a.links:hover {
   height: 250px;
   border-radius: 7px;
   margin-bottom: 20px;
+  object-fit: cover; 
 }
 
 #profile {
   width: 200px;
   height: 200px;
+  object-fit: cover; 
 }
