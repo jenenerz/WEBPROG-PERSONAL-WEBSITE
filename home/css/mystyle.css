@@ -105,3 +105,7 @@ a.links:hover {
   height: 250px;
   object-fit: cover; 
 }
+
+#course p {
+  color: #f8f7f2;
+}
