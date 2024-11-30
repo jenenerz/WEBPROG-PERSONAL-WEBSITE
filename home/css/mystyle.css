@@ -1,13 +1,111 @@
-  body {
-    background-color: #b19cd9; 
-    margin: 60px;
-}
-h1 {
-    color: white;
-    text-align: center;
-}
-p {
-    font-family: "Lucida Sans", sans-serif; 
-    font-size: 17px;
+body {
+  background-color: #8A9A5B;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+
+.section {
+  width: 90%;
+  max-width: 1120px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px #139873 solid;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  text-align: left;
+}
+
+h4 {
+  font-size: 20px;
+  color: white;
+}
+
+ul, table {
+  color: white;
+  font-size: 16px;
+  word-wrap: break-word;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  text-align: left;
+  border: 2px solid #4d5731;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+td {
+  border: 2px solid #4d5731;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+th img {
+  width: 200px;
+  height: 140px;
+  border-radius: 7px;
+}
+
+td img {
+  width: 140px;
+  height: 200px;
+  border-radius: 7px;
+}
+
+a.links {
+  text-decoration: none;
+  color: #139873;
+  font-size: 18px;
+}
+
+a.links:hover {
+  text-decoration: underline;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#gallery img {
+  width: 300px;
+  height: 250px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
