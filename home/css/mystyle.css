@@ -65,20 +65,14 @@ th, td {
   padding: 10px;
   border-radius: 10px;
   text-align: center;
+  vertical-align: middle; 
 }
 
 th img, td img {
   border-radius: 7px;
   object-fit: cover; 
-}
-
-th img {
-  width: 200px;  
-  height: auto;   
-
-td img {
-  width: 140px;   
-  height: auto;  
+  width: 100%; 
+  height: auto;
 }
 
 a.links {
