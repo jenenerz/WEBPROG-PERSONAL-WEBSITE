@@ -9,15 +9,18 @@
   }
   
   #about-me > div {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     background-color: #f8f7f2;
     color: #333333;
     width: 120px; 
     height: 70px; 
     margin: 5px; 
     text-align: center;
-    line-height: 1.5; 
     font-size: 14px;
     font-weight: bold;
     border-radius: 8px; 
   }
+  
   
