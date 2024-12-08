@@ -4,122 +4,122 @@ body {
     color: #4d5731;
     margin: 0;
     padding: 0;
-  }
-  
-  .container {
+}
+
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
-  }
-  
-  h1, h2 {
+}
+
+h1, h2 {
     color: #4d5731;
     font-size: 32px;
     text-align: center;
-  }
-  
-  .section {
+}
+
+.section {
     width: 90%;
     max-width: 1120px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #4d5731;  
-  }
-  
-  h3 {
+    background-color: #4d5731;
+}
+
+h3 {
     font-size: 24px;
     font-weight: bolder;
     color: #f8f7f2;
     text-align: left;
-  }
-  
-  h4 {
+}
+
+h4 {
     font-size: 20px;
     color: #f8f7f2;
-  }
-  
-  ul, table {
+}
+
+ul, table {
     color: white;
     font-size: 16px;
     word-wrap: break-word;
-  }
-  
-  ul {
+}
+
+ul {
     margin-left: 20px;
-  }
-  
-  ul li {
+}
+
+ul li {
     margin-bottom: 10px;
-  }
-  
-  table {
+}
+
+table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-  }
-  
-  th, td {
+}
+
+th, td {
     border: 2px solid #4d5731;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    vertical-align: middle; 
-  }
-  
-  th img, td img {
+    vertical-align: middle;
+}
+
+th img, td img {
     border-radius: 7px;
-    object-fit: cover; 
-    width: 100%; 
+    object-fit: cover;
+    width: 100%;
     height: auto;
-  }
-  
-  a.links {
+}
+
+a.links {
     text-decoration: none;
     color: #f8f7f2;
     font-size: 18px;
-  }
-  
-  a.links:hover {
+}
+
+a.links:hover {
     text-decoration: underline;
-  }
-  
-  #gallery {
+}
+
+#gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
-  
-  #gallery img {
+}
+
+#gallery img {
     width: 300px;
     height: 250px;
     border-radius: 7px;
     margin-bottom: 20px;
-    object-fit: cover; 
-  }
-  
-  #profile {
+    object-fit: cover;
+}
+
+#profile {
     width: 300px;
     height: 250px;
-    object-fit: cover; 
-  }
-  
-  #course p {
+    object-fit: cover;
+}
+
+#course p, #it-experience ul, #hobbies ul, #goals-dreams ul {
     color: #f8f7f2;
-  }
-  
-  .grid {
+}
+
+.grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-  }
-  
-  .grid-item {
+}
+
+.grid-item {
     background-color: #4d5731;
     flex: 1 1 200px;
     margin: 5px;
@@ -127,17 +127,17 @@ body {
     text-align: left;
     color: #f8f7f2;
     padding: 10px;
-  }
-  
-  .picture {
+}
+
+.picture {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 40px;
-  }
-  
-  .gallery {
+}
+
+.gallery {
     background-color: #4d5731;
     padding: 5px;
     border-radius: 5px;
@@ -148,5 +148,19 @@ body {
     font-size: 20.5px;
     width: 100%;
     box-sizing: border-box;
-  }
-  
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.flex-item {
+    flex: 1 1 45%;
+    background-color: #4d5731;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #f8f7f2;
+}
