@@ -1,0 +1,152 @@
+body {
+    background-color: #f8f7f2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #4d5731;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    color: #4d5731;
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .section {
+    width: 90%;
+    max-width: 1120px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #4d5731;  
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #f8f7f2;
+    text-align: left;
+  }
+  
+  h4 {
+    font-size: 20px;
+    color: #f8f7f2;
+  }
+  
+  ul, table {
+    color: white;
+    font-size: 16px;
+    word-wrap: break-word;
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 2px solid #4d5731;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle; 
+  }
+  
+  th img, td img {
+    border-radius: 7px;
+    object-fit: cover; 
+    width: 100%; 
+    height: auto;
+  }
+  
+  a.links {
+    text-decoration: none;
+    color: #f8f7f2;
+    font-size: 18px;
+  }
+  
+  a.links:hover {
+    text-decoration: underline;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  #gallery img {
+    width: 300px;
+    height: 250px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    object-fit: cover; 
+  }
+  
+  #profile {
+    width: 300px;
+    height: 250px;
+    object-fit: cover; 
+  }
+  
+  #course p {
+    color: #f8f7f2;
+  }
+  
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .grid-item {
+    background-color: #4d5731;
+    flex: 1 1 200px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: left;
+    color: #f8f7f2;
+    padding: 10px;
+  }
+  
+  .picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .gallery {
+    background-color: #4d5731;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #f8f7f2;
+    font-size: 20.5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
