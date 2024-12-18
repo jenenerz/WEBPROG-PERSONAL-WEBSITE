@@ -33,5 +33,113 @@
             <p>///</p>
         </div>
     </div>
+
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f7f2;
+    color: #f8f7f2;
+}
+
+nav {
+    background-color: #806ea6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.nav-left a, .nav-right a {
+    text-decoration: none;
+    color: #f8f7f2;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-left a:hover, .nav-right a:hover {
+    text-decoration: underline;
+}
+
+.profile-circle {
+    width: 100px;
+    height: 100px;
+    background: #f8f7f2;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-circle img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 150px 20px 50px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section {
+    background-color: #806ea6;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    color: #f8f7f2;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-content p {
+    flex: 1;
+    margin-right: 20px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #f8f7f2;
+}
+
+.heart-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-content p {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+</style>
 </body>
 </html>
