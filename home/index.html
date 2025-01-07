@@ -1,145 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <title>Jenine's Personal Profile</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <title>Jenine's Website</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
-            <a href="#">home</a>
-        </div>
-        <div class="nav-right">
-            <a href="#">info</a>
-            <a href="#">acads</a>
-            <a href="#">others</a>
-        </div>
-        <div class="profile-circle">
-            <img src="images/profile-logo.png" alt="Profile Logo">
-        </div>
-    </nav>
-    <div class="container">
-        <div class="section">
-            <h2>About me</h2>
-            <div class="about-content">
-                <p>Hi! I’m Jenine Elaine C. Dulay. My name came from my birthday, July 9.</p>
-                <div class="heart-image">
-                    <img src="images/profile-pic.png" alt="About Me Image">
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <h2>Educational Background</h2>
-            <p>///</p>
-        </div>
+  <header class="navbar">
+    <img src="images/profile-logo.png" alt="logo" class="logo">
+    <ul>
+      <li><a href="#intro">home</a></li>
+      <li><a href="#education">acads</a></li>
+      <li><a href="#goals">more</a></li>
+    </ul>
+  </header>
+
+  <section id="intro" class="container">
+    <div class="intro">
+      <img src="images/intro-pic.png" alt="intro-pic">
+      <div>
+        <h2>HELLO! I'M JENINE</h2>
+        <p>I am a 2nd year student currently taking Bachelor of Science in Information Technology with specialization in Mobile and Internet Technologies. I am 20 years old and I love music and froyo!!
+        </p>
+        <br>
+        <p>Add me on my socials!<br>
+          <a href="https://www.linkedin.com/in/jenine-dulay-b9988b284/" target="_blank">LinkedIn</a> |
+          <a href="https://shelf.im/jen1ne" target="_blank">Shelf</a> |
+          <a href="https://open.spotify.com/user/parkjimin3389?si=717bf162501242f3" target="_blank">Spotify</a>
+        </p>
+      </div>
     </div>
+  </section>
 
-<style>
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+  <section id="education" class="container">
+    <h2 align="center">EDUCATION / ACHIEVEMENTS</h2>
+    <p><strong>Immaculate Heart of Mary College (2018-2023)</strong></p>
+    <ul>
+      <li>Junior High - Senior High (STEM Strand)</li>
+      <li>Graduated Junior High with Honors</li>
+      <li>Graduated Senior High with Honors</li>
+      <li>STEM SOCIETY Organization Member</li>
+    </ul>
+    <br>
+    <p><strong>Asia Pacific College (2023-PRESENT)</strong></p>
+    <ul>
+      <li>BSIT-MI</li>
+      <li>1st Year of College - Honors</li>
+      <li>Cinemasoma Member</li>
+      <li>Flickers Photo Society Member</li>
+    </ul>
+  </section>
 
-body {
-    background-color: #f8f7f2;
-    color: #f8f7f2;
-}
+  <section id="it-experience" class="container two-columns">
+    <div class="column">
+      <h2 align="center">IT EXPERIENCE</h2>
+      <ul>
+        <li>Basic Java</li>
+        <li>Basic Python</li>
+        <li>Had HTML during grade school</li>
+        <li>UI/UX Experience (Website and mobile: RamQuest Group Project)</li>
+        <li>Mobile Application (RESCUE app - Group Project)</li>
+      </ul>
+    </div>
+    <div class="column">
+      <div class="gallery">
+        <img src="image-url-here" alt="IT Project 1">
+        <img src="image-url-here" alt="IT Project 2">
+      </div>
+    </div>
+  </section>
 
-nav {
-    background-color: #806ea6;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    position: relative;
-}
+  <section id="goals" class="container two-columns">
+    <div class="column">
+      <h2 align="center">HOBBIES & INTERESTS</h2>
+      <ul>
+        <li>Music (1D, Chappell Roan, Olivia Rodrigo, SZA)</li>
+        <li>Films (Beautiful Boy, Challengers, Pitch Perfect Trilogy)</li>
+        <li>Shows (Bojack Horseman, Grey’s Anatomy, The Bear)</li>
+        <li>Video Games (Life is Strange, The Last of Us, Valorant)</li>
+        <li>Photography</li>
+      </ul>
+    </div>
+    <div class="column">
+      <h2 align="center">GOALS IN LIFE / DREAMS</h2>
+      <ul>
+        <li>To be able to live on my own and give back to my siblings</li>
+        <li>To be able to meet my favorite artists</li>
+        <li>Graduate college with Honors</li>
+        <li>Learn to play the piano</li>
+        <li>Find a stable job that I enjoy</li>
+        <li>Be able to drive without getting anxious</li>
+        <li>To live near a beach and be able to travel all around the world</li>
+      </ul>
+    </div>
+  </section>
 
-.nav-left a, .nav-right a {
-    text-decoration: none;
-    color: #f8f7f2;
-    font-weight: bold;
-    margin: 0 10px;
-}
-
-.nav-right {
-    display: flex;
-}
-
-.nav-left a:hover, .nav-right a:hover {
-    text-decoration: underline;
-}
-
-.profile-circle {
-    width: 100px;
-    height: 100px;
-    background: #f8f7f2;
-    position: absolute;
-    top: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.profile-circle img {
-    width: 80%;
-    border-radius: 50%;
-}
-
-.container {
-    padding: 150px 20px 50px;
-    max-width: 900px;
-    margin: auto;
-}
-
-.section {
-    background-color: #806ea6;
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
-}
-
-.section h2 {
-    color: #f8f7f2;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.about-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.about-content p {
-    flex: 1;
-    margin-right: 20px;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #f8f7f2;
-}
-
-.heart-image img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
-
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-        text-align: center;
-    }
-    .about-content p {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-}
-
-</style>
+  <section id="gallery" class="container">
+    <h2 align="center">PICTURE GALLERY</h2>
+    <div class="gallery">
+      <img src="images/beach.jpg" alt="Gallery Image 1">
+      <img src="images/circuit,jpg" alt="Gallery Image 2">
+      <img src="images/collage.jpg" alt="Gallery Image 3">
+      <img src="images/guitar.jpg" alt="Gallery Image 4">
+      <img src="images/phtogphy.jpg" alt="Gallery Image 5">
+      <img src="images/pic1.jpg" alt="Gallery Image 6">
+    </div>
+  </section>
 </body>
+
 </html>
