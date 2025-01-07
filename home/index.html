@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
   <title>Jenine's Website</title>
-  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header class="navbar">
@@ -107,5 +106,119 @@
     </div>
   </section>
 </body>
-
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1.6;
+    background-color: #f8f7f2;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #603f8b;
+    color: white;
+  }
+  
+  .navbar .logo {
+    max-width: 50px; 
+    margin-right: auto; 
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .intro img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro p {
+    flex: 1;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    color: #603f8b;
+  }
+  
+  ul, p {
+    color: #806ea6;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .two-columns {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  a {
+    color: #603f8b;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+</style>
 </html>
