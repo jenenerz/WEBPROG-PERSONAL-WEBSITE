@@ -1,113 +1,244 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    line-height: 1.6;
-    background-color: #f8f7f2;
-  }
-  
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f7f2;
+  color: #562123;
+}
+#ref ul {
+  margin-left: 230px;
+}
+
+a {
+  color: #562123;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#title img {
+  display: block;
+  margin: 8px auto;
+  max-width: 650px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #562123;
+  color: #f8f7f2;
+  padding: 20px 10px;
+  border-radius: 8px;
+}
+
+.navbar img {
+  max-width: 150px;
+  padding: 32px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin-bottom: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+}
+
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#education, #hobbies, #goals {
+  background-color: #562123;
+  color: #f8f7f2;
+  border-radius: 10px;
+}
+
+#education h2, #hobbies h2, #goals h2 {
+  color: #f8f7f2;
+}
+
+#experience {
+  border: 2px solid #562123;
+  padding: 20px;
+}
+
+h2 {
+  color: #562123;
+}
+
+h2.center {
+  text-align: center;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro img {
+  max-width: 400px;
+  border-radius: 200px;
+}
+
+.two-columns {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.two-columns > div {
+  flex: 1;
+}
+
+#experience .two-columns {
+  justify-content: flex-start;
+}
+
+#education .two-columns {
+  justify-content: flex-end;
+}
+
+#experience img {
+  margin-left: 400px; 
+  max-width: 300px;
+}
+
+p {
+  color: #562123;
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.intro-text {
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
   .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #603f8b;
-    color: white;
+    width: 100%;
+    position: relative;
+    height: auto;
   }
-  
-  .navbar .logo {
-    max-width: 50px; 
-    margin-right: auto; 
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  .navbar ul li {
-    margin-left: 20px;
-  }
-  
-  .navbar ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .intro {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-  
-  .intro img {
-    max-width: 200px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .intro p {
-    flex: 1;
-  }
-  
-  h2 {
-    margin-bottom: 10px;
-    color: #603f8b;
-  }
-  
-  ul, p {
-    color: #806ea6;
-  }
-  
-  ul {
-    list-style-type: disc;
-    margin-left: 20px;
-  }
-  
-  .two-columns {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .column {
-    flex: 1;
+
+  .content {
+    margin-left: 0;
     padding: 10px;
-    border-radius: 8px;
   }
-  
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
+  .two-columns {
+    flex-direction: column;
     gap: 10px;
   }
-  
-  .gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  #title img {
+    max-width: 100%;
   }
-  
-  a {
-    color: #603f8b;
-    text-decoration: none;
+
+  .intro img {
+    max-width: 250px;
   }
-  
-  a:hover {
-    text-decoration: underline;
+
+  .navbar ul li {
+    margin-bottom: 10px;
   }
-  
+
+  .navbar img {
+    max-width: 120px;
+  }
+
+  #experience img {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+/*Comment Section */
+.comment-section {
+  margin-top: 20px;
+}
+
+.comment {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.comment p {
+  margin: 5px 0;
+}
+
+.guestbook-container {
+  background-color: #f8f7f2;
+  border: 2px solid #562123;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.guestbook-container .header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.guestbook-container .header .title-container {
+  font-size: 24px;
+  font-weight: bold;
+  color: #562123;
+}
+
+.guestbook-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.guestbook-container input, .guestbook-container textarea {
+  padding: 10px;
+  border: 1px solid #562123;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.guestbook-container button {
+  background-color: #562123;
+  color: #f8f7f2;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.guestbook-container button:hover {
+  background-color: #6c3a32;
+}
